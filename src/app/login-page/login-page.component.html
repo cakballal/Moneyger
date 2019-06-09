@@ -1,3 +1,37 @@
 <div class="container-fluid" id="loginBackground">
-
+  <div id="loginWrapper" class="text-center center-screen">
+    <div id="loginInfo">
+      <span class="top-left-corner">Moneyger</span>
+      <div class="center-screen">
+        <h3>Welcome Back!</h3>
+        <div>
+          <small>To use Moneyger dashboard, please login.</small>
+        </div>
+        <div class="text-center">
+          <button mat-stroked-button class="accent-btn">Sign up</button>
+        </div>
+      </div>
+    </div>
+    <div id="loginBox">
+      <h3>Sign in to Moneyger</h3>
+      <form>
+        <mat-form-field class="full-width" appearance="fill">
+          <mat-label>Username</mat-label>
+          <input matInput>
+          <span matPrefix class="fa fa-user-o"></span>
+        </mat-form-field>
+        <mat-form-field class="full-width" appearance="fill">
+          <mat-label>Password</mat-label>
+          <input matInput type="password">
+          <span matPrefix class="fa fa-lock"></span>
+        </mat-form-field>
+        <div class="underline-link accent-link">
+          <a href="#">Forgot your password?</a>
+        </div>
+        <div>
+          <button mat-flat-button class="accent-btn">Sign in</button>
+        </div>
+      </form>
+    </div>
+  </div>
 </div>
